@@ -1,7 +1,10 @@
-<div align="center">    
-<img src="https://github.com/savionascimentodev/VueJs-Origamid/blob/main/assets/1525357092234.jpg"  width="70%" height="350px">
+<div align="center">  
 
-# 🐺 Origamid 💜 <a id="top"></a>
+<a id="top">
+<img src="https://github.com/savionascimentodev/VueJs-Origamid/blob/main/assets/1525357092234.jpg"   width="70%" height="350px">
+</a> 
+
+# 🐺 Origamid 💜 
 
 ![License-Mit](https://img.shields.io/badge/license-MIT-lightseagreen)
 
@@ -35,8 +38,8 @@ Códigos/cursos feitos na plataforma da Origamid, repositório criado para estud
 
 ### Techno
 
-- Projeto desenvolvido para simular uma loja de informática, com compra de itens utilizando o vue, html [Techno](https://techno-origamid.vercel.app/).
-  Para mais detalhes entre no repositório desse projeto [aqui](https://github.com/savionascimentodev/Techno-Origamid)
+- Projeto desenvolvido para simular uma loja de informática, com compra de itens utilizando o vue;
+- Projeto inicial de e-comerce com uma Api 'falsa', não há bd, para treinamentos iniciais em VueJs, nao existe funcionalidade de Finalizar a compra pois é só front-end - Consome dados de uma Api, um arquivo Json com os produtos, imagens e outros dados.
 
 <details>
 <summary>
