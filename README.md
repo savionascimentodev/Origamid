@@ -1,10 +1,10 @@
-<div align="center">  
+<div align="center">
 
 <a id="top">
-<img src="https://github.com/savionascimentodev/VueJs-Origamid/blob/main/assets/1525357092234.jpg"   width="70%" height="350px">
-</a> 
+<img src="https://github.com/savionascimentodev/Origamid/blob/main/assets/bannerOrigamid.jpg" width="70%" height="350px">
+</a>
 
-# 🐺 Origamid 💜 
+# 🐺 Origamid 💜
 
 ![License-Mit](https://img.shields.io/badge/license-MIT-lightseagreen)
 
@@ -36,7 +36,7 @@ Códigos/cursos feitos na plataforma da Origamid, repositório criado para estud
 
 ## 👾 Projetos <a id="projects"></a>
 
-### Techno
+<!-- ### Techno
 
 - Projeto desenvolvido para simular uma loja de informática, com compra de itens utilizando o vue;
 - Projeto inicial de e-comerce com uma Api 'falsa', não há bd, para treinamentos iniciais em VueJs, nao existe funcionalidade de Finalizar a compra pois é só front-end - Consome dados de uma Api, um arquivo Json com os produtos, imagens e outros dados.
@@ -45,7 +45,7 @@ Códigos/cursos feitos na plataforma da Origamid, repositório criado para estud
 <summary>
 🚀 Esse projeto foi desenvolvido com as seguintes tecnologias:  <a id="tecnologias"></a>
 </summary>
-    
+
 <h6></h6>
 
 [![HTML5](https://img.shields.io/badge/-HTML5-F06426?style=flat-square&logoColor=fff&logo=HTML5)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
@@ -63,7 +63,7 @@ Códigos/cursos feitos na plataforma da Origamid, repositório criado para estud
 
 ![image](https://user-images.githubusercontent.com/77630766/127754130-728bb2f5-42e6-4aab-8eb6-01dcb83719c6.png)
 
-<br>
+<br> -->
 
 ---
 
@@ -87,7 +87,7 @@ Códigos/cursos feitos na plataforma da Origamid, repositório criado para estud
 
 ### ℹ️ Informações <a id="info"></a>
 
-<img align="left" src="https://github.com/savionascimentodev/VueJs-Origamid/blob/main/assets/1525356724116.png" width="74px">
+<img align="left" src="https://github.com/savionascimentodev/Origamid/blob/main/assets/logoOrigamid.png" width="74px">
 <br>
 
 ![last-commit](https://img.shields.io/github/last-commit/savionascimentodev/VueJs-Origamid?&color=purple)
