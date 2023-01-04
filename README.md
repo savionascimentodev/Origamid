@@ -17,8 +17,6 @@
 
 ---
 
-[🏠 Home](https://github.com/savionascimentodev/Origamid)
-
 ### 🎯 Breve Resumo
 
 Códigos/cursos feitos na plataforma da Origamid, repositório criado para estudos/aprofundamento.
@@ -90,10 +88,10 @@ Códigos/cursos feitos na plataforma da Origamid, repositório criado para estud
 <img align="left" src="https://github.com/savionascimentodev/Origamid/blob/main/assets/logoOrigamid.png" width="74px">
 <br>
 
-![last-commit](https://img.shields.io/github/last-commit/savionascimentodev/VueJs-Origamid?&color=purple)
-![repo-size](https://img.shields.io/github/repo-size/savionascimentodev/VueJs-Origamid?&color=purple)
-<img src="https://img.shields.io/github/languages/count/savionascimentodev/VueJs-Origamid?color=purple&style=flat" alt="Linguagens">
-[![GitHub Repo stars](https://img.shields.io/github/stars/savionascimentodev/VueJs-Origamid?style=social)](https://github.com/savionascimentodev/VueJs-Origamid/stargazers)
+![last-commit](https://img.shields.io/github/last-commit/savionascimentodev/Origamid?&color=purple)
+![repo-size](https://img.shields.io/github/repo-size/savionascimentodev/Origamid?&color=purple)
+<img src="https://img.shields.io/github/languages/count/savionascimentodev/Origamid?color=purple&style=flat" alt="Linguagens">
+[![GitHub Repo stars](https://img.shields.io/github/stars/savionascimentodev/Origamid?style=social)](https://github.com/savionascimentodev/VueJs-Origamid/stargazers)
 
 </br>
 
