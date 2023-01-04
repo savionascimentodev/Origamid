@@ -23,7 +23,7 @@
 
 Códigos/cursos feitos na plataforma da Origamid, repositório criado para estudos/aprofundamento.
 
-#### Descrição
+#### Descrição:
 
 - Landing pages, formularios, menus;
 - Grid, FlexBox, Sass;
