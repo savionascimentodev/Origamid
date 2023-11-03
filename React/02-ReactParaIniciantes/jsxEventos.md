@@ -1,8 +1,8 @@
 # Eventos
 
-Podemos atribuir eventos diretamente aos elementos JSX como um atributo. Os eventos são sintáticos, ou seja, são criados pelo próprio React porém seguindo as especificações da W3C (e funcionam igualmente nos diversos browsers que o React suporta).
+Podemos atribuir **eventos diretamente** aos **elementos JSX** como um **atributo**. Os **eventos são sintáticos**, ou seja, **são criados pelo próprio React** porém seguindo as especificações da W3C (e funcionam igualmente nos diversos browsers que o React suporta).
 
-```js
+```jsx
 const App = () => {
   function handleClick(event) {
     alert("Comprou: " + event.target.innerText)
@@ -17,13 +17,11 @@ const App = () => {
 }
 ```
 
-https://reactjs.org/docs/events.html
-
 ## Função Anônima
 
 É possível executar uma função anônima no evento.
 
-```js
+```jsx
 const App = () => {
   return (
     <button onClick={({ target }) => target.classList.toggle("ativa")}>
@@ -39,7 +37,7 @@ Guardar o estado do DOM não é o mais indicado, veremos mais tarde como fazer i
 
 Eventos no window/document ou qualquer elemento fora do React, devem ser adicionados com JavaScript normalmente, usando o addEventListener.
 
-```js
+```jsx
 const App = () => {
   function handleScroll(event) {
     console.log(event)

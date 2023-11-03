@@ -2,7 +2,7 @@
 
 O JSX irá listar cada um dos itens da array. Ele não irá separar ou colocar vírgula, é você que deve modificar a array para o resultado desejado.
 
-```js
+```jsx
 const App = () => {
   const produtos = ["Notebook", "Smartphone", "Tablet"]
 
@@ -14,7 +14,7 @@ const App = () => {
 
 O JSX necessita de uma **key única** para **cada elemento da Array**.
 
-```js
+```jsx
 const App = () => {
   const empresas = [<li key="e1">Apple</li>, <li key="e2">Google</li>]
 
@@ -26,7 +26,7 @@ const App = () => {
 
 É comum usarmos o **map** **direto na array como uma expressão**, retornando um elemento para cada item novo da Array.
 
-```js
+```jsx
 const App = () => {
   const filmes = ["Before Sunrise", "Before Sunset", "Before Midnight"]
 
@@ -44,7 +44,7 @@ const App = () => {
 
 O cenário mais comum é trabalhar com **array's de objetos**.
 
-```js
+```jsx
 const App = () => {
   const livros = [
     { nome: "A Game of Thrones", ano: 1996 },

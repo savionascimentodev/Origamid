@@ -2,7 +2,7 @@
 
 JavaScript XML / Extension. Estende a sintaxe do JavaScript, introduzindo elementos como XML que são convertidos em funções de React.
 
-```js
+```jsx
 const App = () => {
   return <button>Comprar</button>
 }
@@ -10,7 +10,7 @@ const App = () => {
 
 É **transformado** em:
 
-```js
+```jsx
 const App = () => {
   return React.createElement("button", null, "Comprar")
 }
@@ -22,7 +22,7 @@ const App = () => {
 
 **Atributos** podem ser **passados** como no **HTML**, porém com alguns casos especiais.
 
-```js
+```jsx
 const App = () => {
   return (
     <a href="https://www.origamid.com" title="Site Origamid">
@@ -36,13 +36,13 @@ const App = () => {
 
 O caso especial mais comum é o **atributo class.** Pelo fato de **class** ser uma **palavra reservada do JavaScript,** o **JSX** resolveu mudar o nome para evitar conflitos. O correto é **className**, a mesma coisa para o antes **for** agora é chamado de **htmlFor**.
 
-```js
+```jsx
 const App = () => {
   return <div className="grid">Origamid</div>
 }
 ```
 
-```js
+```jsx
 const App = () => {
   return (
     <form>
@@ -57,7 +57,7 @@ const App = () => {
 
 Atributos com **nomes compostos** devem ser utilizados como **camelCase**. Exemplo: **autoplay** vira **autoPlay**.
 
-```js
+```jsx
 const App = () => {
   return <video autoPlay />
 }
@@ -67,7 +67,7 @@ const App = () => {
 
 **Expressões** e **variáveis** podem ser colocadas dentro do JSX, u**tilizando chaves {}**.
 
-```js
+```jsx
 // Por exemplo: renderizando o valor dentro da váriavel;
 const App = () => {
   const nome = "André"
@@ -75,7 +75,7 @@ const App = () => {
 }
 ```
 
-```js
+```jsx
 // Por exemplo: renderizando expressões js;
 const App = () => {
   const desconto = 50
@@ -84,7 +84,7 @@ const App = () => {
 }
 ```
 
-```js
+```jsx
 // Por exemplo: mudando a classe do elemento dinâmicamente se ele for ativo ou não,
 const App = () => {
   const ativo = true
@@ -94,7 +94,7 @@ const App = () => {
 
 Também posso atribuir **JSX** direto a uma **constante/variável**.
 
-```js
+```jsx
 const Titulo = <h1>Meu título</h1>
 
 const App = () => {
@@ -106,7 +106,7 @@ const App = () => {
 
 Você pode executar qualquer **expressão** dentro das **chaves {}**. Se o resultado da expressão for um **número**, **string ou array de números/strings** o **resultado irá aparecer na tela**. **Booleanos (true/false)**, **undefined** e **null** **não irão resultar em nada na tela**. **Objetos** irão **retornar** um **erro**.
 
-```js
+```jsx
 const App = () => {
   function meuNome() {
     return "Sávio"
@@ -147,7 +147,7 @@ const App = () => {
 
 O **style** irá receber um **objeto** com as **propriedades** do **elemento** em **camelCase**.
 
-```js
+```jsx
 const App = () => {
   const estiloH1 = {
     color: "blue",
